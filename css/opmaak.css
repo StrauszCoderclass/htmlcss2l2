@@ -38,8 +38,12 @@ header h1 {
 }
 ul {
   padding: 10px;
+}
+nav {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 5;
 }
 ul li {
   background: #787878;
