@@ -36,24 +36,32 @@ header h1 {
   margin: 0px;
   text-align: center;
 }
-ul {
-  padding: 10px;
-}
 nav {
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 5;
+  float: left;
+  height: 100%;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  left: 0px;
+}
+ul {
+  background-color: white;
+  border-right: solid 2px black;
+  height: 100%;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 ul li {
-  background: #787878;
-  padding: 5px;
-  border: solid 2px black;
-  display: inline-block;
+
 }
 ul li a {
-  color: white;
-  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
 }
 ul li a:hover {
   color: #C0C0C0;
@@ -68,7 +76,7 @@ ul li a:hover {
   width: 200px;
   height: 200px;
   top: 40px;
-  left: 40px;
+  left: 1540px;
 }
 #yellow {
   background-color: yellow;
@@ -76,7 +84,7 @@ ul li a:hover {
   width: 130px;
   height: 130px;
   top: 40px;
-  left: 40px;
+  left: 1540px;
 }
 #red {
   background-color: red;
@@ -84,7 +92,7 @@ ul li a:hover {
   width: 100px;
   height: 100px;
   top: 40px;
-  left: 40px;
+  left: 1540px;
 }
 #blue {
   background-color: blue;
@@ -92,7 +100,7 @@ ul li a:hover {
   width: 100px;
   height: 100px;
   top: 130px;
-  left: 130px;
+  left: 1630px;
 }
 #green {
   background-color: green;
@@ -100,13 +108,13 @@ ul li a:hover {
   width: 100px;
   height: 100px;
   top: 90px;
-  left: 90px;
+  left: 1590px;
 }
 footer h3 {
   text-align: center;
   font-weight: normal;
   font-size: 90%;
-  position:absolute;
+  position:fixed;
   top: 920px;
   left: 0px;
 }
