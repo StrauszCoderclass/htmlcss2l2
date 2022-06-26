@@ -37,16 +37,16 @@ header h1 {
   text-align: center;
 }
 nav {
-  position: fixed;
-  top: 0;
   z-index: 5;
   float: left;
   height: 100%;
+  position: fixed;
+  /*
   margin-left: 0px;
   padding-left: 0px;
   margin-top: 0px;
   padding-top: 0px;
-  left: 0px;
+  left: 0px;*/
 }
 ul {
   background-color: white;
@@ -54,9 +54,6 @@ ul {
   height: 100%;
   margin-left: 0px;
   margin-top: 0px;
-}
-ul li {
-
 }
 ul li a {
   color: black;
