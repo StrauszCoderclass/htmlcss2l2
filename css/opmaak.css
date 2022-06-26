@@ -58,6 +58,44 @@ ul li a {
 ul li a:hover {
   color: #C0C0C0;
 }
+.z-index {
+  float: right;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+#yellow {
+  background: url('../flowerYellow.png');
+  background-color: yellow;
+  border: solid 2px black;
+  z-index: 1;
+  top: 40px;
+  left: 40px;
+}
+#white {
+  background: url('../flowerWhite.png');
+  background-color: white;
+  border: solid 2px black;
+  z-index: 2;
+  top: 60px;
+  left: 60px;
+}
+#blue {
+  background: url('../flowerBlue.png');
+  background-color: blue;
+  border: solid 2px black;
+  z-index: 3;
+  top: 80px;
+  left: 80px;
+}
+#purple {
+  background: url('../flowerPurple.png');
+  background-color: purple;
+  border: solid 2px black;
+  z-index: 4;
+  top: 100px;
+  left: 100px;
+}
 footer h3 {
   text-align: center;
   font-weight: normal;
