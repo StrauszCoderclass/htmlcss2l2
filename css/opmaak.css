@@ -58,12 +58,11 @@ ul li a {
 ul li a:hover {
   color: #C0C0C0;
 }
-footer {
-  background: #F0F0F0;
-}
-
 footer h3 {
   text-align: center;
   font-weight: normal;
   font-size: 90%;
+  position:absolute;
+  top: 920px;
+  left: 0px;
 }
