@@ -38,15 +38,14 @@ header h1 {
 }
 nav {
   z-index: 5;
-  float: left;
-  height: 100%;
   position: fixed;
-  /*
+  top: 0px;
+  height: 100%;
   margin-left: 0px;
   padding-left: 0px;
   margin-top: 0px;
   padding-top: 0px;
-  left: 0px;*/
+  left: 0px;
 }
 ul {
   background-color: white;
@@ -62,6 +61,17 @@ ul li a {
 }
 ul li a:hover {
   color: #C0C0C0;
+}
+.spoiler {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  content: "Spoiler";
+}
+.spoiler:hover {
+  background: rgba(0,0,0,0);
+  color: black;
+  font-weight: normal;
 }
 .z-index {
   float: right;
