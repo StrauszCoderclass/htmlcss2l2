@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title>Mijn nieuwe website</title>
     <link rel="stylesheet" href="css/opmaak.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav>
@@ -22,7 +25,7 @@
         </div>
       </header>
       <section>
-        <article id="article1">
+        <article class="text">
           <h2>Robot nieuws</h2>
             <p>
               Ons robot nieuws geeft u inzicht in de allerlaatste ontwikkelingen. Lees over robot ontwikkelingen, robotica en leuke nieuwe robots voor thuis. Er wordt steeds meer ontwikkeld op robotgebied en al sinds 2009 leest u het laatste en beste nieuws over robots hier.
@@ -31,15 +34,18 @@
               Robotica is een wetenschap die vooral gericht is op systeemintegratie. Een goed ontworpen robot zal zijn waarnemingen (die verkregen zijn met behulp van sensoren) op een goede manier kunnen vertalen naar handelingen die zijn actuatoren zullen uitvoeren.
             </p>
           </article>
-          <article id="article2">
+          <article class="text">
             <h2>Waar gaat het heen met robots?</h2>
                 <p>
                   De robot revolutie is begonnen, robots maaien ons gras en stofzuigen ons huis. Ze staan de chirurg bij in de operatiekamer en rijden rond op Mars. Ze vermaken onze kinderen en binnenkort zijn zelfs onze autos autonome robots. Lees hier het robotnieuws als je echt bij wilt blijven. Meld je aan voor onze nieuwsbrief!
                 </p>
           </article>
       </section>
+      <form action="/action_page.php" method="get">
+        Feedback: <input type="text" class="text2" id="feedback">
+      </form>
       <div>
-        <p>In de spiderman: no way home, gaat <span class="spoiler">spiderman's tante </span>dood.</p>
+        <p class="text2">(Voorbeeld van een spoiler functie) In <span id="spiderman">spiderman: no way home,</span> gaat <span class="spoiler">spiderman's tante </span>dood.</p>
       </div>
       <section>
         <div class="z-index" id= "black" ></div>
