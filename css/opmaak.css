@@ -117,10 +117,9 @@ ul li a:hover {
   left: 1590px;
 }
 footer h3 {
-  text-align: center;
   font-weight: normal;
   font-size: 90%;
-  position:fixed;
-  top: 920px;
-  left: 0px;
+  position:absolute;
+  bottom:0;
+  right:0;
 }
